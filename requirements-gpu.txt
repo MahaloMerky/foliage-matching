@@ -1,0 +1,5 @@
+# Learned matchers (LoFTR, DISK+LightGlue). For NVIDIA GPUs install the CUDA build of
+# torch first, e.g.:  pip install torch --index-url https://download.pytorch.org/whl/cu124
+-r requirements.txt
+torch>=2.2
+kornia>=0.7.3
